@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Nunito:wght@500&display=swap');
 
 body {
-    background-color: #E4F2E7;
+    background-color: #46177d;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,21 +10,23 @@ body {
     font-family: 'Exo 2', sans-serif;
 }
 .container {
-    width: 50%;
-    height: auto;
+    width: 85vw;
+    min-height: 85vh;
     margin: auto;
     text-align: center;
-    background-color: #93BFB7;
+    background-color: #f2f2f2;
     border-radius: 5px;
     padding: 20px;
 }
 #usermsg {
-    background-color: E4F2E7;
+    background-color: #E4F2E7;
 }
-button {
-    background-color: #387373;
+
+#btnSubmit {
+    background-color: #ffffff;
     font-family: 'Exo 2', sans-serif;
-    color: #E4F2E7;
+    font-weight: bold;
+    color: #50d691;
     border-radius: 5px;
     border: solid #2D3E40;
 }
