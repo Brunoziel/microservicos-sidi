@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Nunito:wght@500&display=swap');
+
+body {
+    background-color: #E4F2E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+}
+.container {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color: #93BFB7;
+    border-radius: 5px;
+    padding: 20px;
+}
+#usermsg {
+    background-color: E4F2E7;
+}
+button {
+    background-color: #387373;
+    font-family: 'Exo 2', sans-serif;
+    color: #E4F2E7;
+    border-radius: 5px;
+    border: solid #2D3E40;
+}
+
