@@ -11,10 +11,12 @@
         <h1>Chatbot SiDi</h1>
         <div id="chatbox"></div>
         <form onsubmit="return sendMessage()">
-            <p id="bemVindo">Olá. Seja bem vindo ao chatbot do SiDi. Qual o código da vaga?</p>
+            <p id="bemVindo">Olá. Seja bem vindo ao chatbot do SiDi. <br> Por favor, insira o código da vaga:</p>
             <input type="text" id="usermsg">
-            <button id= btnSubmit type="submit" onclick="return removeMessage()">Enviar</button>
+            <button id= "sendMessage()" type="submit" onclick="return removeMessage()">Enviar</button>
+            <button id="reiniciar-conversa" style="display: none;" onclick="reiniciarConversa()">Reiniciar Conversa</button>
         </form>
+        
     </div>
     
     <script src="../scripts/script.js" ></script>

@@ -31,3 +31,15 @@ body {
     border: solid #2D3E40;
 }
 
+#reiniciar-conversa {
+    margin: auto;
+    margin-top: 20px;
+    padding: 25px;
+    background-color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: #50d691;
+    border-radius: 5px;
+    border: solid #2D3E40;
+    font-size: medium;
+}
